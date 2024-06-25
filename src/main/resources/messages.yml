@@ -1,0 +1,8 @@
+no-console: "<red>Only players can use this command!</red>"
+no-perms: "<red>Permission denied</red>"
+invalid-args: "<red>Invalid arguments</red>"
+staff-on: "<aqua>Staff mode enabled</aqua>"
+staff-off: "<gold>Staff mode disabled</gold>"
+staff-name: "<aqua>[On Duty]</aqua> <playername>"
+no-groups: "<gold>There is no group on the list</gold>"
+reload: "<green>BetterStaff configuration reloaded</green>"

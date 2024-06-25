@@ -1,0 +1,14 @@
+staff:
+  staff-on:
+    gamemode: survival
+    godmode: true
+
+  staff-off:
+    gamemode: survival
+    godmode: false
+
+staff-list:
+  groups:
+    - owner
+    - manager
+    - admin

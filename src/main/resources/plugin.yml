@@ -1,0 +1,44 @@
+name: BetterStaff
+version: 1.0
+main: xyz.lunarismc.betterstaff.BetterStaff
+description: BetterStaff is a comprehensive Minecraft plugin designed to empower server staff members with a suite of advanced tools and utilities.
+author: Milesf17
+website: https://forum.lunarismc.xyz
+api-version: '1.21'
+commands:
+  staff:
+    description: Enables/Disables staff mode
+    usage: /staff [on/off]
+    aliases: duty
+    permission: betterstaff.staff
+  stafflist:
+    description: Shows the online staff members
+    usage: /stafflist
+    aliases: list
+    permission: betterstaff.stafflist
+  betterstaff:
+    description: Reloads and checks the version of the plugin
+    usage: /betterstaff <reload/version>
+    permission: betterstaff.betterstaff
+permissions:
+  betterstaff.staff:
+    description: Access to /staff
+    default: op
+  betterstaff.stafflist:
+    description: Access to /stafflist
+    default: op
+  betterstaff.betterstaff.*:
+    description: Access to /betterstaff and its subcommands
+    children:
+      betterstaff.betterstaff: true
+      betterstaff.betterstaff.reload: true
+      betterstaff.betterstaff.version: true
+  betterstaff.betterstaff:
+    description: Access to /betterstaff
+    default: op
+  betterstaff.betterstaff.reload:
+    description: Access to /betterstaff reload
+    default: op
+  betterstaff.betterstaff.version:
+    description: Access to /betterstaff version
+    default: op
