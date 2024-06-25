@@ -34,7 +34,7 @@ The plugin can be easily configured how you want, whether it is the Staff mode o
 
 **Permission:** betterstaff.stafflist
 
-**- /betterstaff reload:** Reload the config and messages
+- **/betterstaff reload:** Reload the config and messages
 
 **Permission:** betterstaff.betterstaff.reload
 
