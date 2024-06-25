@@ -14,6 +14,8 @@ Check which staff members are online by simply running a single command. The lis
 4. Customization:
 The plugin can be easily configured how you want, whether it is the Staff mode or online staff list or messages. Everything can be done how you want!
 
+# LuckPerms required
+
 ## How to use:
 - Download the BetterStaff plugin from Modrinth.
 - Place the downloaded .jar file into your server's plugins directory.
@@ -43,6 +45,8 @@ The plugin can be easily configured how you want, whether it is the Staff mode o
 **Permission:** betterstaff.betterstaff.version
 
 **_(Note: /betterstaff and its subcommands require betterstaff.betterstaff permission)_**
+
+### The plugin add a luckperms context "betterstaff:is_duty". This means you can set any command you want available only when the user is on Staff mode.
 
 ## Download BetterStaff today and take your server's moderation to the next level!
 
