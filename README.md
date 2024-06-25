@@ -1,5 +1,5 @@
-### BetterStaff
-# By. Milesf17
+# BetterStaff
+### By. Milesf17
 
 BetterStaff is a comprehensive Minecraft plugin designed to empower server staff members with a suite of advanced tools and utilities. This plugin enhances the capabilities of your server's moderation team, allowing them to efficiently go into staff duty, set themselves to Anonymous mode to secretly manage the server and maintain a smooth and fair gameplay experience. Whether your server is large or small, BetterStaff provides the essential features needed to improve the staff experience.
 
